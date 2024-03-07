@@ -616,7 +616,7 @@ func (p *Presentation) onNewRelationship(decMap *zippkg.DecodeMap, target, typ s
 				if err != nil {
 					return err
 				}
-				iref := common.MakeImageRef(img, &p.DocBase, p.prels)
+				iref := common.MakeImageRef(img, &p.DocBase, p.prels, rel)
 				p.Images = append(p.Images, iref)
 				files[i] = nil
 				decMap.RecordIndex(target, len(p.Images))
@@ -687,7 +687,7 @@ func (p *Presentation) GetLayoutByName(name string) (SlideLayout, error) {
 // AddImage adds an image to the document package, returning a reference that
 // can be used to add the image to a run and place it in the document contents.
 func (p *Presentation) AddImage(i common.Image) (common.ImageRef, error) {
-	r := common.MakeImageRef(i, &p.DocBase, p.prels)
+	r := common.MakeImageRef(i, &p.DocBase, p.prels, nil)
 	if i.Data == nil && i.Path == "" {
 		return r, errors.New("image must have data or a path")
 	}
