@@ -10,7 +10,7 @@
 package chartDrawing
 
 import (
-	"github.com/qifengzhang007/gooxml"
+	"github.com/t-xl/gooxml"
 )
 
 func b2i(b bool) uint8 {

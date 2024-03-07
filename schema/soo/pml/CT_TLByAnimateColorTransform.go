@@ -12,7 +12,7 @@ package pml
 import (
 	"encoding/xml"
 
-	"github.com/qifengzhang007/gooxml"
+	"github.com/t-xl/gooxml"
 )
 
 type CT_TLByAnimateColorTransform struct {

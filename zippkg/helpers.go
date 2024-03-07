@@ -17,8 +17,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/qifengzhang007/gooxml/algo"
-	"github.com/qifengzhang007/gooxml/schema/soo/pkg/relationships"
+	"github.com/t-xl/gooxml/algo"
+	"github.com/t-xl/gooxml/schema/soo/pkg/relationships"
 )
 
 // RelationsPathFor returns the relations path for a given filename.

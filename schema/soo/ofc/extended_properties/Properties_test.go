@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/qifengzhang007/gooxml/schema/soo/ofc/extended_properties"
+	"github.com/t-xl/gooxml/schema/soo/ofc/extended_properties"
 )
 
 func TestPropertiesConstructor(t *testing.T) {

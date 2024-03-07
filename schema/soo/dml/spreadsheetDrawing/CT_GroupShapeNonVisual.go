@@ -12,8 +12,8 @@ package spreadsheetDrawing
 import (
 	"encoding/xml"
 
-	"github.com/qifengzhang007/gooxml"
-	"github.com/qifengzhang007/gooxml/schema/soo/dml"
+	"github.com/t-xl/gooxml"
+	"github.com/t-xl/gooxml/schema/soo/dml"
 )
 
 type CT_GroupShapeNonVisual struct {

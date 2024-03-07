@@ -8,7 +8,7 @@
 package document
 
 import (
-	"github.com/qifengzhang007/gooxml/schema/soo/wml"
+	"github.com/t-xl/gooxml/schema/soo/wml"
 )
 
 // Table is a table within a document.

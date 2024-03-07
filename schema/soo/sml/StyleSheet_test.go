@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/qifengzhang007/gooxml/schema/soo/sml"
+	"github.com/t-xl/gooxml/schema/soo/sml"
 )
 
 func TestStyleSheetConstructor(t *testing.T) {

@@ -14,8 +14,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/qifengzhang007/gooxml/document"
-	"github.com/qifengzhang007/gooxml/spreadsheet"
+	"github.com/t-xl/gooxml/document"
+	"github.com/t-xl/gooxml/spreadsheet"
 )
 
 func main() {

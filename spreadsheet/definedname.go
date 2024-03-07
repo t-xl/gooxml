@@ -7,8 +7,8 @@
 
 package spreadsheet
 
-import "github.com/qifengzhang007/gooxml/schema/soo/sml"
-import "github.com/qifengzhang007/gooxml"
+import "github.com/t-xl/gooxml/schema/soo/sml"
+import "github.com/t-xl/gooxml"
 
 // DefinedName is a named range, formula, etc.
 type DefinedName struct {

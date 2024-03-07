@@ -8,8 +8,8 @@
 package document
 
 import (
-	"github.com/qifengzhang007/gooxml"
-	"github.com/qifengzhang007/gooxml/schema/soo/wml"
+	"github.com/t-xl/gooxml"
+	"github.com/t-xl/gooxml/schema/soo/wml"
 )
 
 // Settings controls the document settings.

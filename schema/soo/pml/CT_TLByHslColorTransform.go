@@ -14,7 +14,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/qifengzhang007/gooxml/schema/soo/dml"
+	"github.com/t-xl/gooxml/schema/soo/dml"
 )
 
 type CT_TLByHslColorTransform struct {

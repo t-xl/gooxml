@@ -10,11 +10,11 @@ package common
 import (
 	"bytes"
 	"fmt"
-	"github.com/qifengzhang007/gooxml/schema/soo/pkg/relationships"
+	"github.com/t-xl/gooxml/schema/soo/pkg/relationships"
 	"image"
 	"os"
 
-	"github.com/qifengzhang007/gooxml/measurement"
+	"github.com/t-xl/gooxml/measurement"
 	// Add image format support
 	_ "image/gif"
 	_ "image/jpeg"

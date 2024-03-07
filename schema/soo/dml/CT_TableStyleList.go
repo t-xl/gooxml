@@ -13,8 +13,8 @@ import (
 	"encoding/xml"
 	"fmt"
 
-	"github.com/qifengzhang007/gooxml"
-	"github.com/qifengzhang007/gooxml/schema/soo/ofc/sharedTypes"
+	"github.com/t-xl/gooxml"
+	"github.com/t-xl/gooxml/schema/soo/ofc/sharedTypes"
 )
 
 type CT_TableStyleList struct {

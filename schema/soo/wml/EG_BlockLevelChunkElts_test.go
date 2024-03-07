@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/qifengzhang007/gooxml/schema/soo/wml"
+	"github.com/t-xl/gooxml/schema/soo/wml"
 )
 
 func TestEG_BlockLevelChunkEltsConstructor(t *testing.T) {

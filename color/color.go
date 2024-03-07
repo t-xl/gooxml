@@ -8,7 +8,7 @@
 package color
 
 import (
-	"github.com/qifengzhang007/gooxml"
+	"github.com/t-xl/gooxml"
 )
 
 // Color is a 24 bit color that can be converted to
